@@ -1,3 +1,7 @@
-testbed.yaml
+---
+testbed:
 
-test 
+  credentials:
+    default:
+      username: "cisco"
+      password: "cisco"
