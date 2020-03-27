@@ -38,3 +38,19 @@ devices:
     custom:
       abstraction:
           order: [os, type]
+
+  R3:
+    alias: R3
+    os: ios
+    type: IOSXE
+    connections:
+
+      defaults:
+        class: unicon.Unicon
+      console:
+        protocol: ssh
+        ip: 192.168.10.12
+
+    custom:
+      abstraction:
+          order: [os, type]
